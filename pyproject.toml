@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "movie-expert-agent"
+version = "0.1.0"
+description = "Cinema Expert AI Agent"
+authors = ["Alikhan Shorin"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "==0.3.27"
+langchain-openai = "==0.3.33"
+openai = "==1.109.1"
+dynaconf = "*"
+pandas = "*"
+python-dotenv = "*"
+requests = "*"
+rich = "*"
+
+[tool.poetry.scripts]
+start = "src.main:main"  # poetry run start
