@@ -4,7 +4,7 @@ AI-агент киноэксперт, построенный на базе LangC
 
 ## Демонстрация
 
-<video src="./assets/demo.mp4" controls></video>
+https://github.com/user-attachments/assets/245a8411-0db1-48ba-ae1b-bd5447531601
 
 ## Возможности
 
